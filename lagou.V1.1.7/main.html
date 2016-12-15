@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" ng-app="lagou" ng-controller = "mainController">
+<head >
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>拉勾</title>
+	<script type="text/javascript" src = "public/js/angular.min.js"></script>
+	<script type="text/javascript" src = "public/js/angular-animate.js"></script>
+	<script type="text/javascript" src = "public/js/angular-ui-router.js"></script>
+	<script type="text/javascript" src = "public/js/angular-css.js"></script>
+	<script type="text/javascript" src = "public/js/swiper-3.3.1.min.js"></script>
+
+</head>
+<body>
+	<div ui-view class="main"></div>
+</body>
+<!-- 引入主路由 -->
+<script type="text/javascript" src="mainRoute.js"></script>
+<script type="text/javascript" src="mainController.js"></script>
+<!-- 引入每个模块的 js 文件 -->
+<script type="text/javascript" src="public/lagou-1.1.7.min.js"></script>
+</html>
